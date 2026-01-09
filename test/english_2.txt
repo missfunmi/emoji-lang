@@ -1,0 +1,5 @@
+fun fib(x,y) {
+  if (x <= 1) return x+y;
+  return fib(x+y - 2) + fib(x+y - 1);
+}
+print fib(4,5);
